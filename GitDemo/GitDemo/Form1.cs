@@ -18,7 +18,7 @@ namespace GitDemo
         }
 
         private void Button1_Click(object sender, EventArgs e)
-        { //Displays the current date time.
+        { //Displays the current date time.  Do we want a message first?
             textBox1.Text = DateTime.Now.ToString();
         }
     }
